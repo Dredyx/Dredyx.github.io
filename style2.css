@@ -1,11 +1,12 @@
 body {
     background-color: black;
-    margin: 0;
+    margin: auto 0;
 }
 
 p {
     font-size: 90px;
     text-align: center;
+    
     
 
 
@@ -55,4 +56,11 @@ a {
 
 div {
     font-size: 30px;
+}
+
+@media  only screen and (max-width: 600px) {
+    p {
+        font-size: 2em;
+        padding: 0;
+    }
 }
