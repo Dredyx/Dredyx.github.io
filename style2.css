@@ -1,19 +1,35 @@
+div a {
+    color: black;
+    list-style: none;
+    display: flex;
+    
+}
+
+
+
 body {
-    background-color: black;
+    background-color: #10041b;
     margin: auto 0;
 }
 
+.btn-primary {
+    background-color: rgb(221, 205, 241);
+    list-style: none;
+    text-align: center;
+    
+}
+
+.btn-primary2 {
+    background-color: rgb(221, 205, 241);
+}
 p {
     font-size: 90px;
     text-align: center;
     
-    
-
-
 }
 p, h1 {
 
-color: rgb(255, 218, 6);
+color: rgb(250, 249, 246);
 text-align: center;
 font-family: 'Oswald', sans-serif; 
  
@@ -63,4 +79,10 @@ div {
         font-size: 2em;
         padding: 0;
     }
+}
+
+.violet{
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(90, 51, 129)), color-stop(100%,#11001f));
+    display: grid;
 }

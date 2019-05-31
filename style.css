@@ -1,5 +1,15 @@
-body1 {
-    background-color: rgb(0, 0, 0);
+body {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgb(90, 51, 129)), color-stop(30%,#11001f));
+    
+}
+
+
+
+.lol {
+    color:rgb( 221, 205, 241);
+    display: grid;
+    font-size: 2em;
+    
 }
 
 .container {
@@ -8,11 +18,14 @@ body1 {
     justify-content: left;
 }
 img {
+    display: flexbox;
     width: 1000px;
     height: 500px;
     transition: 1s;
     border-image: 0px;
+
 }
+
 
 img:hover
 {
@@ -22,39 +35,33 @@ img:hover
 
     
 }
-h1 {
-    font-size: 100%;
-}
 
-body {
-    background-color: rgb(120, 120, 245);
-}
 
 span {
-    color: black;
+    color: rgb(224, 209, 243);
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 
 }
 
-span2 {
-    color: black;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-a {
-    color: black;
-    font-size: 20px;
 
-}
-
-div {
-    font-size: 20px;
+.trade {
+    color: rgb(250, 249, 246);
+    font-size: 1em;
+    list-style: none;
     
 }
 
-footer {
-    font-size: 50px;
-    font-style: oblique;
+.m {
+    color: rgb(250, 249, 246);
+    font-size: 1em;
+    list-style: none;
+
 }
+
+.btn-secondary {
+    background-color: rgb(36, 24, 54);
+    list-style: none;
+}
+ 
