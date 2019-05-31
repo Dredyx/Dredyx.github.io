@@ -1,6 +1,10 @@
+footer {
+    background-color: black;
+}
+
 body {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgb(90, 51, 129)), color-stop(30%,#11001f));
-    margin: 10px;
+    margin: 0px;
 }
 
 a {
@@ -20,13 +24,13 @@ a {
 
 .wraper {
     display: grid;
-    grid-gap: 50px;
-    grid-template-columns:1fr 2fr;
+    grid-gap: 30px;
+    grid-template-columns: auto
 }
 img  {
-    display: grid;
-    width: 917px;
-    height: 500px;
+    
+    width: 1900px;
+    height: 700px;
     transition: 1s;
     border-image: 0px;
 
