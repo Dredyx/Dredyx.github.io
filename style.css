@@ -3,7 +3,12 @@ body {
     
 }
 
-
+a {
+    color:rgb( 221, 205, 241);;
+    text-decoration: none;
+    list-style: none;
+   
+}
 
 .lol {
     color:rgb( 221, 205, 241);
@@ -17,7 +22,7 @@ body {
     flex-wrap: wrap;
     justify-content: left;
 }
-img {
+img  {
     display: flexbox;
     width: 1000px;
     height: 500px;
@@ -65,3 +70,6 @@ span {
     list-style: none;
 }
  
+.home {
+    text-align: center;
+}
